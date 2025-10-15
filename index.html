@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolphin - AI Conversation Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo-nav">
+                <img src="Dolph_Logo.png" alt="Dolphin Logo" width="32" height="32">
+                <span>Dolphin</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#about">About</a>
+                <a href="login.html" class="nav-cta">Let's Dolph</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-logo">
+                    <img src="Dolph_Logo.png" alt="Dolphin Logo" width="80" height="80">
+                </div>
+                <h1>Your AI Assistant,<br>Reimagined.</h1>
+                <p>Chat with Dolphin, the next-generation AI that understands context, thinks faster, and delivers smarter responses. Like ChatGPT, but better.</p>
+                <div class="cta-group">
+                    <a href="login.html" class="cta-button primary">Let's Dolph →</a>
+                    <a href="#features" class="cta-button secondary">Watch Demo</a>
+                </div>
+                <div class="trust-badges">
+                    <span>✓ No credit card required</span>
+                    <span>✓ Enterprise ready</span>
+                    <span>✓ 24/7 support</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="features" id="features">
+            <div class="feature-grid">
+                <div class="feature-card" onclick="openModal('speed')">
+                    <div class="feature-number">01</div>
+                    <h3>Lightning Fast</h3>
+                    <p>Instant responses powered by advanced AI technology</p>
+                </div>
+                <div class="feature-card" onclick="openModal('security')">
+                    <div class="feature-number">02</div>
+                    <h3>Secure & Private</h3>
+                    <p>Enterprise-grade security for your conversations</p>
+                </div>
+                <div class="feature-card" onclick="openModal('accuracy')">
+                    <div class="feature-number">03</div>
+                    <h3>Smart & Accurate</h3>
+                    <p>Context-aware responses that understand your needs</p>
+                </div>
+            </div>
+        </section>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <div id="modalBody"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Dolphin. All rights reserved.</p>
+    </footer>
+    <script src="modal.js"></script>
+</body>
+</html>

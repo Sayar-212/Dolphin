@@ -1,0 +1,12 @@
+# API Keys
+.env
+config.js
+*.key
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
