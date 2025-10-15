@@ -4,13 +4,12 @@ const sendBtn = document.getElementById('sendBtn');
 const newChatBtn = document.getElementById('newChatBtn');
 const chatHistory = document.querySelector('.chat-history');
 
-// Add your API keys here or import from config.js
-const GROQ_API_KEY = 'YOUR_GROQ_API_KEY';
+const GROQ_API_KEY = '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';
 const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions';
 const MODEL = 'llama-3.3-70b-versatile';
-const MISTRAL_API_KEY = 'YOUR_MISTRAL_API_KEY';
+const MISTRAL_API_KEY = 'SxkNpEb42peqVsEd6DizL4nIS10pBs2X';
 const MISTRAL_API_URL = 'https://api.mistral.ai/v1/chat/completions';
-const STABILITY_API_KEY = 'YOUR_STABILITY_API_KEY';
+const STABILITY_API_KEY = 'sk-0DjkWf3jSSsCHYIKwBe50eQwoEfBECGB6leuRbX6JiqRoZTP';
 
 
 const SYSTEM_PROMPT = `You are Dolph AI, created by Sayar Basu - a MASTER OF EVERYTHING (MoE) and your friendliest AI companion! 🐬
