@@ -363,7 +363,7 @@ async function sendMessage(imageData = null) {
         if (imageUrl) {
             dailyGenCount++;
             localStorage.setItem('dailyGenCount', dailyGenCount);
-            addMessage(`<div><img src="${imageUrl}" style="max-width: 100%; border-radius: 8px;" crossorigin="anonymous"/><br><a href="${imageUrl}" download="generated-image.png" style="display: inline-block; margin-top: 10px; padding: 8px 16px; background: #007bff; color: white; text-decoration: none; border-radius: 4px;">⬇️ Download</a></div>`, falselse);
+            addMessage(`<div><img src="${imageUrl}" style="max-width: 100%; border-radius: 8px;" crossorigin="anonymous"/><br><a href="${imageUrl}" download="generated-image.png" style="display: inline-block; margin-top: 10px; padding: 8px 16px; background: #007bff; color: white; text-decoration: none; border-radius: 4px;">⬇️ Download</a></div>`, false);
         } else {
             addMessage('Failed to generate image. Please try again.', false);
         }
